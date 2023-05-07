@@ -1,0 +1,24 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sm-img {
+    width: 100%;
+  }
+  .lg-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sm-img {
+    display: none;
+  }
+  .lg-img {
+    width: 100%;
+  }
+}

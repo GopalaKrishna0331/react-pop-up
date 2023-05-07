@@ -1,0 +1,94 @@
+.header-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 75px;
+  height: 70px;
+}
+
+.burger-icon {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.separator {
+  border: none;
+  background-color: #dcdcdc;
+  height: 1px;
+}
+
+.cross-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 458px;
+}
+@media screen and (min-width: 768px) {
+  .modal-container {
+    max-width: 1110px;
+  }
+}
+
+.cross-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-container {
+  display: flex;
+  text-decoration-line: none;
+  font-size: 32px;
+  color: #1c1c1d;
+  font-weight: bold;
+  font-family: 'roboto';
+  list-style-type: none;
+}
+
+.pop-icon {
+  align-self: center;
+  margin-right: 5px;
+}
+
+.pop-container {
+  background-image: linear-gradient(#ffffff, #ffffff);
+  height: 100vh;
+  width: 100vw;
+  padding: 42px;
+  list-style-type: none;
+}
+
+.pop-cross {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
